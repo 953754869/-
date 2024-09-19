@@ -1,0 +1,32 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "安健环小助手"
+		}
+	},
+	{
+		"path" : "pages/index/comm/anquanguanli/anquanguanli",
+		"style" : 
+		{
+			"navigationBarTitleText" : ""
+		}
+	},
+	{
+		"path" : "pages/index/comm/anquandongtai/anquandongtai",
+		"style" : 
+		{
+			"navigationBarTitleText" : ""
+		}
+	}],
+	"globalStyle": {
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "安健环小助手",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	}
+}

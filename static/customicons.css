@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "customicons"; /* Project id 2878519 */
+  src:url('/static/customicons.ttf') format('truetype');
+}
+
+.customicons {
+  font-family: "customicons" !important;
+}
+
+.youxi:before {
+  content: "\e60e";
+}
+
+.wenjian:before {
+  content: "\e60f";
+}
+
+.zhuanfa:before {
+  content: "\e610";
+}
+.g-content{
+	color: #fff;
+	width: 100vw;
+	height: 100vh;
+	background-image: url("~@/static/img/g-bg.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+view{
+	box-sizing: border-box;
+}
+.falc{
+	display: flex;
+	align-items: center;
+}
+.fcc{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.gradient-h {
+	    width: 200px;
+	    height: 2px;
+	    background: linear-gradient(to right, rgba(255, 255, 255, 0), #9497CF 50%, rgba(255, 255, 255, 0));
+	  }
+.gradient-s {
+	    width: 2rpx;
+	    height: 50rpx;
+	    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #9497CF 50%, rgba(255, 255, 255, 0));
+	  }
+	  .titleIcon{
+		  background-color: #89C4E0;
+		  width: 14rpx;
+		  height: 40rpx;
+		  border-radius: 10rpx;
+		  
+	  }
